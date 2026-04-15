@@ -12,7 +12,7 @@ class TestMathUtils(unittest.TestCase):
     # 测试阶乘函数
     def test_factorial(self):
         self.assertEqual(factorial(0), 1)
-        self.assertEqual(factorial(5), 7)
+        self.assertEqual(factorial(5), 120)
         self.assertEqual(factorial(3), 6)
 
     # 测试负数输入异常
